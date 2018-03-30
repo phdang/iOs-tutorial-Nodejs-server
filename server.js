@@ -20,7 +20,7 @@ var tutorials = [
     id: 1,
     title: "Android Tutorials For Beginners",
     description: "Learn how to install android studio and then go through this tutorial to build your very first app",
-    iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/F-k5gwz_91o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
+    iframe: '<iframe class="iframe-youtube" src="https://www.youtube.com/embed/F-k5gwz_91o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
     thumbnail: "https://boygeniusreport.files.wordpress.com/2012/11/android-icon.jpg?quality=98&strip=all"
 },
 
@@ -28,7 +28,7 @@ var tutorials = [
     id: 2,
     title: "iOs Design in Photoshop",
     description: "Learn how to install android studio and then go through this tutorial to build your very first app",
-    iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/F-k5gwz_91o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
+    iframe: '<iframe class="iframe-youtube" width="560" height="315" src="https://www.youtube.com/embed/F-k5gwz_91o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
     thumbnail: "https://boygeniusreport.files.wordpress.com/2012/11/android-icon.jpg?quality=98&strip=all"
   },
 
@@ -36,7 +36,7 @@ var tutorials = [
     id: 3,
     title: "Android Studio Tutorial For Beginners",
     description: "Learn how to install Android Studio and then go through this tutorial to build your very first app",
-    iframe: '<div class="container"><iframe class="video" src="https://www.youtube.com/embed/F-k5gwz_91o" frameborder="0" allowfullscreen></iframe></div>',
+    iframe: '<div class="container"><iframe class="iframe-youtube" src="https://www.youtube.com/embed/F-k5gwz_91o" frameborder="0" allowfullscreen></iframe></div>',
     thumbnail: "https://s3-us-west-2.amazonaws.com/devslopesvideo/androidwhite-learn.png"
   },
   {
@@ -44,21 +44,21 @@ var tutorials = [
     title: "How to Support High Resolution on iOS - @1x @2x @3x",
     description: "Learn how to support multiple screen resolutions and devices such as iPhone 4, iPhone 5, iPhone 6, iPhone 6 Plus",
     thumbnail: "https://s3-us-west-2.amazonaws.com/devslopesvideo/ios-image-sizes.png",
-    iframe: '<div class="container"><iframe class="video" src="https://www.youtube.com/embed/WOnczJSsMqk" frameborder="0" allowfullscreen></iframe></div>'
+    iframe: '<div class="container"><iframe class="iframe-youtube" src="https://www.youtube.com/embed/WOnczJSsMqk" frameborder="0" allowfullscreen></iframe></div>'
   },
   {
     id: 5,
     title: "How to build an Apple TV App Tutorial for tvOS",
     description: "In this app we download popular movies from an IMDB service and implement scrolling and navigation on the Apple TV",
     thumbnail: "https://s3-us-west-2.amazonaws.com/devslopesvideo/tv-test.png",
-    iframe: '<div class="container"><iframe class="video" src="https://www.youtube.com/embed/XmLdEcq-QNI" frameborder="0" allowfullscreen></iframe></div>'
+    iframe: '<div class="container"><iframe class="iframe-youtube" src="https://www.youtube.com/embed/XmLdEcq-QNI" frameborder="0" allowfullscreen></iframe></div>'
   },
   {
     id: 6,
     title: "Photoshop Tutorial For Beginners How To Create a Log",
     description: "Learn how to make a professional logo in Photoshop without any design experience. This is a Photoshop tutorial for beginners that will give you all the basics of Photoshop that you need to make a logo.",
     thumbnail: "https://s3-us-west-2.amazonaws.com/devslopesvideo/logo.png",
-    iframe: '<div class="container"><iframe class="video" src="https://www.youtube.com/embed/CrKnswpftp4" frameborder="0" allowfullscreen></iframe></div>'
+    iframe: '<div class="container"><iframe class="iframe-youtube" src="https://www.youtube.com/embed/CrKnswpftp4" frameborder="0" allowfullscreen></iframe></div>'
   }
 
 ];
